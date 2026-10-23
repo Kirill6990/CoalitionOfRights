@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Meta';
-    src: url('/fonts/MetaPro-Bold_0.otf') format('opentype');
+    src: url('../fonts/MetaPro-Bold_0.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
