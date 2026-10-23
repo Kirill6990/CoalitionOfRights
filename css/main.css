@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Meta';
+    src: url('/fonts/MetaPro-Bold_0.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Meta', sans-serif;
+}
+
+html, body {
+    margin: 0;             /* Убирает дефолтные белые поля вокруг страницы */
+    padding: 0;            /* Сбрасывает внутренние отступы */
+    min-height: 100vh;     /* Растягивает фон минимум на 100% высоты видимого экрана */
+    background-color: #e8f2ff; /* Сюда вставьте ваш цвет (HEX, RGB или название) */
+}
+
+.logo {
+    text-align: center;
+    padding: 50px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.parties {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+    align-items: center; 
+}
+
+.parties span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.donate .btn {
+    background: #024a9d;
+    color: #fff;
+    border-radius: 15px;
+    padding: 15px 30px;
+    border: 0;
+    transition: all 500ms ease;
+}
+
+.donate .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.colors {
+    color: cadetblue;
+}
